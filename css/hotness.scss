@@ -1,0 +1,16 @@
+section.development-paths {
+  $dev-paths-color: #2980b9;
+  color: $dev-paths-color;
+  h2{
+    color: $dev-paths-color;
+  }
+  img {
+    vertical-align: top;
+    max-height: 165px;
+  }
+}
+.emphasis {
+  * strong {
+    color: #16a085;
+  }
+}

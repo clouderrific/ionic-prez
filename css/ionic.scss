@@ -10,7 +10,7 @@
 
 
 // Override theme settings
-$backgroundColor: #3374de;
+$backgroundColor: #112940;
 
 $mainColor: #fff;
 $headingColor: #fff;
@@ -47,7 +47,15 @@ section.has-light-background {
   h1, h2, h3, h4 {
     text-transform: uppercase;
   }
-
+  .img-container {
+    font-size: 68px;
+    margin-bottom: 20px;
+  }
+  .icon-small {
+    width: 150px;
+    margin-top: -10px;
+    vertical-align: middle;
+  }
   p, th, td, ol, ul, li {
     text-shadow: $headingTextShadow;
   }
@@ -102,7 +110,7 @@ section.has-light-background {
 
     li {
       padding: 0 0 0 70px;
-      background-size:
+
     }
   }
 
