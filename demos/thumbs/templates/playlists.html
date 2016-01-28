@@ -1,0 +1,35 @@
+<ion-view view-title="Playlists">
+  <ion-content>
+    <ion-list>
+
+      <ion-item class="item-divider">
+        Avatars
+      </ion-item>
+      <ion-item class="item item-avatar" ng-repeat="playlist in playlists">
+        <img ng-src="{{playlist.img}}">
+        <h2>{{playlist.title}}</h2>
+        <p>{{playlist.subTitle}}</p>
+      </ion-item>
+      <ion-item class="item-divider">
+        Thumbnails
+      </ion-item>
+      <ion-item class="item item-thumbnail-left" ng-repeat="playlist in playlists">
+        <img ng-src="{{playlist.img}}">
+        <h2>{{playlist.title}}</h2>
+        <p>{{playlist.subTitle}}</p>
+      </ion-item>
+      <ion-item class="item-divider">
+        Cards
+      </ion-item>
+      <div class="list card" ng-repeat="playlist in playlists">
+        <ion-item class="item-avatar">
+          <img ng-src="{{playlist.img}}">
+          <h2>{{playlist.title}}</h2>
+          <p>{{playlist.subTitle}}</p>
+        </ion-item>
+        <ion-item class="item-image">
+          <img ng-src="{{playlist.img}}">
+        </ion-item>
+      </div>
+  </ion-content>
+</ion-view>
